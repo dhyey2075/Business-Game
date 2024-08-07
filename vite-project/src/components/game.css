@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 95vw;
+    display: grid;
+    /* gap: 1rem; */
+    background-color: rgb(79, 75, 75);
+    /* padding: 1rem; */
+    grid-template-areas:
+        "box1 box1 sb1 sb2 sb3 sb4 sb5 sb6 sb7 sb8 box2 box2"
+        "sb9 sb9 om om om om om om om om sb10 sb10"
+        "sb11 sb11 om om om om om om om om sb12 sb12"
+        "sb13 sb13 om om om om om om om om sb14 sb14"
+        "sb15 sb15 om om om om om om om om sb16 sb16"
+        "sb17 sb17 om om om om om om om om sb18 sb18"
+        "sb19 sb19 om om om om om om om om sb20 sb20"
+        "sb21 sb21 om om om om om om om om sb22 sb22"
+        "sb23 sb23 om om om om om om om om sb24 sb24"
+        "box3 box3 sb25 sb26 sb27 sb28 sb29 sb30 sb31 sb32 box4 box4"
+    ;
+}
+
+.items {
+    background-color: rgb(82, 82, 184);
+    border: 2px solid black;
+    padding: 1rem;
+    color: white;
+}
+
+#box4 div img {
+    width: 125px;
+    height: 125px;
+    object-fit: contain;
+}
+
+#sb1 {
+    grid-area: sb1;
+}
+
+#sb2 {
+    grid-area: sb2;
+}
+
+#sb3 {
+    grid-area: sb3;
+}
+
+#sb4 {
+    grid-area: sb4;
+}
+
+#sb5 {
+    grid-area: sb5;
+}
+
+#sb6 {
+    grid-area: sb6;
+}
+
+#sb7 {
+    grid-area: sb7;
+}
+
+#sb8 {
+    grid-area: sb8;
+}
+
+#sb9 {
+    grid-area: sb9;
+}
+
+#sb10 {
+    grid-area: sb10;
+
+}
+
+#sb11 {
+    grid-area: sb11;
+
+}
+
+#sb12 {
+    grid-area: sb12;
+}
+
+#sb13 {
+    grid-area: sb13;
+}
+
+#sb14 {
+    grid-area: sb14;
+}
+
+#sb15 {
+    grid-area: sb15;
+
+}
+
+#sb16 {
+    grid-area: sb16;
+
+}
+
+#sb17 {
+    grid-area: sb17;
+
+}
+
+#sb18 {
+    grid-area: sb18;
+
+}
+
+#sb19 {
+    grid-area: sb19;
+
+}
+
+#sb20 {
+    grid-area: sb20;
+
+}
+
+#sb21 {
+    grid-area: sb21;
+
+}
+
+#sb22 {
+    grid-area: sb22;
+
+}
+
+#sb23 {
+    grid-area: sb23;
+}
+
+#sb24 {
+    grid-area: sb24;
+}
+
+#sb25 {
+    grid-area: sb25;
+}
+
+#sb26 {
+    grid-area: sb26;
+}
+
+#sb27 {
+    grid-area: sb27;
+}
+
+#sb28 {
+    grid-area: sb28;
+}
+
+#sb29 {
+    grid-area: sb29;
+}
+
+#sb30 {
+    grid-area: sb30;
+}
+
+#sb31 {
+    grid-area: sb31;
+}
+
+#sb32 {
+    grid-area: sb32;
+}
+
+
+
+#box1 {
+    grid-area: box1;
+}
+
+#box2 {
+    grid-area: box2;
+}
+
+#box3 {
+    grid-area: box3;
+}
+
+#box4 {
+    grid-area: box4;
+}
+
+#om {
+    grid-area: om;
+}
+
+.state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    height: 200px;
+    background: linear-gradient(to bottom, #2c2c54, #40407a);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: white;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+.flag {
+    width: 40px;
+    height: 25px;
+    background: linear-gradient(to right, #0055a4, #ffffff, #ef4135);
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.city-name {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px 10px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 20px;
+}
+
+.utility {
+    width: 120px;
+    height: 200px;
+    background: linear-gradient(to bottom, #2c2c54, #40407a);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+.utility img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.utility h2 {
+    margin: 0;
+    font-size: 18px;
+}

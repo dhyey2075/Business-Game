@@ -1,0 +1,24 @@
+.frameset {
+    display: flex;
+    height: 100vh;
+}
+
+.frame {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.top {
+    color: white;
+    flex-basis: 20%;
+}
+
+.business {
+    flex-basis: 60%;
+}
+
+.bottom {
+    color: white;
+    flex-basis: 20%;
+}
